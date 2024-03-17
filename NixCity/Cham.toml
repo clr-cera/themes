@@ -1,0 +1,5 @@
+name = 'NixCity'
+description = 'Welcome to NixCity!'
+
+config = 'config'
+wallpaper = 'wallpapers/cybercity_roads.jpg'

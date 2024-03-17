@@ -1,0 +1,5 @@
+name = 'NixCandy'
+description = 'Mix of NixCity with CottonCandy'
+
+config = 'config'
+wallpaper = 'wallpapers/casseteWacca.jpg'
