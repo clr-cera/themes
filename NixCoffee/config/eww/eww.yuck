@@ -2,7 +2,7 @@
 (defwidget play []
   (box
     (eventbox
-      :onclick "xdg-open https://www.netflix.com"
+      :onclick "xdg-open https://www.youtube.com"
       (image
         :path "./assets/play.svg"
       )
@@ -24,7 +24,7 @@
 (defwidget fileManager []
   (box
     (eventbox
-      :onclick "kitty ~/clr-nixos/ & disown"
+      :onclick "kitty $THEMES_CHAMELEON & disown"
       (image
         :path "./assets/settings.svg"
       )
