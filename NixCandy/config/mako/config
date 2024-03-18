@@ -1,0 +1,8 @@
+background-color=#1a1b26dd
+text-color=#90e4f3
+
+border-size=0
+font=Roboto 12
+
+max-history=3
+default-timeout=3000
