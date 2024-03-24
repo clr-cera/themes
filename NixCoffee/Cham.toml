@@ -2,4 +2,6 @@ name = 'NixCoffee'
 description = 'A coffee shop at NixCity'
 
 config = 'config'
+bin = 'bin'
+
 wallpaper = 'wallpapers/coffee_pc_rain.gif'
