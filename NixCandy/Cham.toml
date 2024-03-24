@@ -3,5 +3,5 @@ description = 'Mix of NixCity with CottonCandy'
 
 config = 'config'
 
-fixup_inline = ["kill eww", "eww open bar","makoctl reload"]
+fixup_inline = ["eww open bar --restart","makoctl reload"]
 wallpaper = 'wallpapers/blue_pink_moon.jpg'
