@@ -62,7 +62,6 @@
     :spacing 1
         (image
           :path "./assets/battery.svg"
-          :xalign 1
         )
 
         (label

@@ -2,4 +2,6 @@ name = 'NixCity'
 description = 'Welcome to NixCity!'
 
 config = 'config'
+
+fixup_inline = ["kill eww", "eww open bar","makoctl reload"]
 wallpaper = 'wallpapers/cybercity_roads.jpg'

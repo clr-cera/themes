@@ -4,4 +4,5 @@ description = 'A coffee shop at NixCity'
 config = 'config'
 bin = 'bin'
 
+fixup_inline = ["kill eww", "eww open bar","makoctl reload"]
 wallpaper = 'wallpapers/coffee_pc_rain.gif'
