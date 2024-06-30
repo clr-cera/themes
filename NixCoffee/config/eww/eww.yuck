@@ -1,3 +1,35 @@
+(defwidget NixCity []
+  (box
+    (eventbox
+      :onclick "chameleon -s NixCity"
+      (image
+        :path "./assets/book.svg"
+      )
+    )
+  )
+)
+
+(defwidget NixCandy []
+  (box
+    (eventbox
+      :onclick "chameleon -s NixCandy"
+      (image
+        :path "./assets/book.svg"
+      )
+    )
+  )
+)
+
+(defwidget NixCoffee []
+  (box
+    (eventbox
+      :onclick "chameleon -s NixCoffee"
+      (image
+        :path "./assets/book.svg"
+      )
+    )
+  )
+)
 
 (defwidget play []
   (box
@@ -62,6 +94,7 @@
     :spacing 1
         (image
           :path "./assets/battery.svg"
+          :xalign 1
         )
 
         (label
@@ -244,7 +277,10 @@
       (music)
       (Projects)
       (fileManager)
-      
+      (sep)
+      (NixCity)
+      (NixCandy)
+      (NixCoffee)
     )
 
   )
