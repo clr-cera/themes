@@ -1,7 +1,7 @@
 (defwidget NixCity []
   (box
     (eventbox
-      :onclick "chameleon -s NixCity"
+      :onclick "cd $HOME && chameleon -s NixCity"
       (image
         :path "./assets/book.svg"
       )
@@ -12,7 +12,7 @@
 (defwidget NixCandy []
   (box
     (eventbox
-      :onclick "chameleon -s NixCandy"
+      :onclick "cd $HOME && chameleon -s NixCandy"
       (image
         :path "./assets/book.svg"
       )
@@ -23,7 +23,7 @@
 (defwidget NixCoffee []
   (box
     (eventbox
-      :onclick "chameleon -s NixCoffee"
+      :onclick "cd $HOME && chameleon -s NixCoffee"
       (image
         :path "./assets/book.svg"
       )
