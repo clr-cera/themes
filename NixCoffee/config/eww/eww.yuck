@@ -3,7 +3,7 @@
     (eventbox
       :onclick "cd $HOME && chameleon -s NixCity"
       (image
-        :path "./assets/book.svg"
+        :path "./assets/umbrella.svg"
       )
     )
   )
@@ -14,7 +14,7 @@
     (eventbox
       :onclick "cd $HOME && chameleon -s NixCandy"
       (image
-        :path "./assets/book.svg"
+        :path "./assets/moon.svg"
       )
     )
   )
@@ -25,7 +25,7 @@
     (eventbox
       :onclick "cd $HOME && chameleon -s NixCoffee"
       (image
-        :path "./assets/book.svg"
+        :path "./assets/coffee.svg"
       )
     )
   )
