@@ -31,6 +31,17 @@
   )
 )
 
+(defwidget NixRoses []
+  (box
+    (eventbox
+      :onclick "cd $HOME && chameleon -s NixRoses"
+      (image
+        :path "./assets/triangle.svg"
+      )
+    )
+  )
+)
+
 (defwidget play []
   (box
     (eventbox
@@ -281,6 +292,7 @@
       (NixCity)
       (NixCandy)
       (NixCoffee)
+      (NixRoses)
     )
 
   )

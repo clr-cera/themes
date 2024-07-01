@@ -1,0 +1,8 @@
+name = 'NixRoses'
+description = "Van Gogh's roses"
+
+config = 'config'
+bin = 'bin'
+
+fixup_inline = ["eww open bar --restart","makoctl reload"]
+wallpaper = 'wallpapers/roses.jpg'
