@@ -42,6 +42,17 @@
   )
 )
 
+(defwidget NixBlue []
+  (box
+    (eventbox
+      :onclick "cd $HOME && chameleon -s NixBlue"
+      (image
+        :path "./assets/droplet.svg"
+      )
+    )
+  )
+)
+
 (defwidget play []
   (box
     (eventbox
@@ -293,6 +304,7 @@
       (NixCandy)
       (NixCoffee)
       (NixRoses)
+      (NixBlue)
     )
 
   )
