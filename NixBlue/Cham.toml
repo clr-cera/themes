@@ -4,5 +4,5 @@ description = "Perfect Blue"
 config = 'config'
 bin = 'bin'
 
-fixup_inline = ["eww open bar --restart","makoctl reload"]
-wallpaper = 'wallpapers/perfect_blue.png'
+fixup_inline = ["eww open bar --restart", "makoctl reload"]
+wallpaper = 'wallpapers/cat_city.png'
